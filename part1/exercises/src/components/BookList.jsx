@@ -1,3 +1,5 @@
+import classes from './BookList.module.css';
+
 export default function BookList() {
    let pageTitle = "Books of the Month";
    let book1 = "https://m.media-amazon.com/images/I/61vBJ41AO5L._SL1200_.jpg";
@@ -7,9 +9,9 @@ export default function BookList() {
    return (
       <div>
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="No Longer Human" />
-         <img src={book2} alt="If Cats Disappeared From The World" />
-         <img src={book3} alt="The Town With No Mirrors" />
+         <img className={classes.images} src={book1} alt="No Longer Human" />
+         <img className={classes.images} src={book2} alt="If Cats Disappeared From The World" />
+         <img className={classes.images} src={book3} alt="The Town With No Mirrors" />
       </div>      
    );
 }
