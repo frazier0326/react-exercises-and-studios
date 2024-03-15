@@ -1,12 +1,13 @@
 export default function HobbyIntroduction () {
-   return(
-      <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
-         <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
-         </ol>
-      </div>
-   );
-}
+    return(
+        <div>
+            <h2>3 Fun Facts About Art</h2>
+                <ol>
+                    <li>Van Gogh only sold one painting during his lifetime.</li>
+                    <li>The Sistine Chapel ceiling took Michelangelo four years to complete.</li>
+                    <li>It takes 570 Gallons of Paint to Repaint The White House.</li>
+                </ol>
+        </div>
+
+    );
+ }
